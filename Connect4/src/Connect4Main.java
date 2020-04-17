@@ -163,68 +163,6 @@ class Connect4Main {
                 return true;
             }
         }
-
-// 4 in a row diagonally
-//        for(int i=column+1,j=row+1;i<numRows && j<numColumn;i++,j++)
-//        {
-//            if(grid[j][i]==player)
-//            {
-//                count++;
-//            }
-//            else {
-//                count = 0;
-//            }
-//            if (count == 4) {
-//                //winCol = column;
-//                return true;
-//            }
-//        }
-//// 4 in a row diagonally
-//        for(int i=column-1,j=row-1;i>=0 && j>=0;i--,j--)
-//        {
-//            if(grid[j][i]==player)
-//            {
-//                count++;
-//            }
-//            else {
-//                count = 0;
-//            }
-//            if (count == 4) {
-//                winCol = column;
-//                return true;
-//            }
-//        }
-//// 4 in a row diagonally
-//        for(int i=column+1,j=row-1;i<numRows && j>=0;i++,j--)
-//        {
-//            if(grid[j][i]==player)
-//            {
-//                count++;
-//            }
-//            else {
-//                count = 0;
-//            }
-//            if (count == 4) {
-//                winCol = column;
-//                return true;
-//            }
-//        }
-//
-//        for(int i=column-1,j=row+1;i >=0 && j<numColumn;i--,j++)
-//        { // 4 in a row diagonally
-//            if(grid[j][i]==player)
-//            {
-//                count++;
-//            }
-//            else {
-//                count = 0;
-//            }
-//            if (count == 4) {
-//                winCol = column;
-//                return true;
-//            }
-//        }
-
         return false;
     }
 }
